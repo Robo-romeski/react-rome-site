@@ -1,4 +1,5 @@
 import React from 'react';
+import { TweenLite } from 'gsap';
 import ReactDOM from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
