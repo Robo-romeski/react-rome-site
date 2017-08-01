@@ -18,7 +18,7 @@ class primarydiv extends Component {
 <div id="content">
   <div ref="logobox" id="logobox" className="logo_box animated zoomInLeft"><h1>Jerome<br/>O.<br/>Moore</h1></div>
   <div ref="mainbox" className="main_box">
-    <h2>Let's Connect!<br/><span></span></h2>
+    <h2> Connect With Me!<br/><span></span></h2>
 
     <ul className="info">
       <li>
