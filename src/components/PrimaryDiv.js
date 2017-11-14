@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { TweenMax, TweenLite } from 'gsap';
+import Parallax from 'parallax-js';
+
 class primarydiv extends Component {
   constructor(props){
     super(props);
@@ -8,8 +10,12 @@ class primarydiv extends Component {
 
   componentDidMount() {
     var node = ReactDOM.findDOMNode(this.refs.shim);
-    TweenMax.to(node, 155, {x: 299})
+    TweenMax.to(node, 155, {x: 299});
+    this.parallax = new Parallax(node);
+  }
 
+  componentWillUnmount() {
+    this.parallax.disable()
   }
   render() {
     return (
@@ -30,8 +36,8 @@ class primarydiv extends Component {
         <p><a className="reslink" href="mailto:me@jeromeomoore.com?Subject=Hello">me@jeromeomoore.com</a></p>
       </li>
       <li>
-        <h3>R</h3>
-        <p><a target="_blank" className="reslink">My Resume</a></p>
+        <h3>W</h3>
+        <p><a target="_blank" className="reslink">My Works</a></p>
       </li>
       <li>
         <h3>S</h3>
