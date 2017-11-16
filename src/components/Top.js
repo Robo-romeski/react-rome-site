@@ -29,7 +29,7 @@ render(){
     <div>
     <ParallaxScene>
     <ParallaxLayer depth={0.2}><div style={Background}></div></ParallaxLayer>
-    <ParallaxLayer depth={0.6}>
+    <ParallaxLayer depth={0.4}>
 
     <div style={Cascade} id="content">
       <div ref="logobox" id="logobox" className="logo_box animated zoomInLeft"><h1>Jerome<br/>O.<br/>Moore</h1></div>
@@ -43,11 +43,11 @@ render(){
           </li>
            <li>
             <h3>E</h3>
-            <p><a className="reslink" href={`mailto:${Email}`}>email me</a></p>
+            <p><a className="reslink" href={`mailto:${Email}`}>{Email}</a></p>
           </li>
           <li>
             <h3>W</h3>
-            <p><a target="_blank" className="reslink">My Works</a></p>
+            <p><a target="_blank" className="reslink">My Resume</a></p>
           </li>
           <li>
             <h3>S</h3>
