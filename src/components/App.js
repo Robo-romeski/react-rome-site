@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
-// import './App.css';
-import './animate.css';
-import '../node_modules/font-awesome/css/font-awesome.css';
+import './css/home.css';
+import './css/animate.css';
 // import PrimaryDiv from './components/PrimaryDiv';
-import Top from './components/Top.js';
+import Top from './Top.js';
 
 class App extends Component {
   render() {

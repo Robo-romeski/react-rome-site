@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Montserrat|Vollkorn+SC');
+
+body, html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+h1{
+font-family: 'Vollkorn SC', serif;
+padding: 60px 70px 12px 20px;
+color: #fff;
+letter-spacing: -1px;
+font-size: 58px;
+}
+p{
+font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+font-family: 'Pacifico', cursive;
+color: #ffe400;
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+h3{
+font-size: 24px;
+color: #333;
+float: left;
+margin-right: 15px;
+padding-top: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+ul.info{
+
+padding: 0;
+margin: 10px 0 0 0;
+float: left;
+}
+
+ul.info li{
+/*margin-bottom: 20px;*/
+clear: both;
+float: left;
+}
+
+ul.info li p{
+font-size: 13px;
+line-height: 75px;
+color: #fff;
+float: left;
+margin: 0;
+}
+
+
+ul.info li p.social a{
+width: 28px;
+height: 28px;
+color: white;
+margin-right: 8px;
+float: left;
+}
+
+
+ul.info li p.social a:hover{
+width: 28px;
+height: 28px;
+color: yellow;
+float: left;
+}
+.reslink{
+  color: white;
+  text-decoration: none;
+}
+.reslink:hover{
+  color:yellow;
+}
+
+.logo_box{
+float: left;
+border-right: 1px solid #303030;
+position: relative;
+height: 350px;
+}
+
+ @media all and (max-width:468px) {
+   body {
+     overflow-x: scroll;
+   }
+.logo_box {
+  border-bottom: 1px solid #303030;
+  border-right: none;
+  height: auto;
+  }
+h1{
+  padding-top: 0;
+  padding-bottom: 5%;
+  }
+}
+
+@media all and (max-width:992px){
+  h1 {
+    padding: 0;
+  }
+  body {
+    overflow-x: scroll;
+  }
+  .logo_box{
+    border: none;
+    height: auto;
+  }
+  #inner-container {
+    margin: 0;
+  }
+}
+
+#home-page{
+  background: black;
+  color: white;
+  height: 100%;
+}
+
+#inner-container{
+  max-width: 600px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#connect-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

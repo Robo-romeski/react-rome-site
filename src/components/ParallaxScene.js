@@ -13,8 +13,9 @@ export default class ParallaxScene extends Component {
   }
   render(){
     return(
-      <ul ref="scene" data-friction-x="0.1"
-        data-friction-y="0.1"
+      <ul ref="scene" data-friction-x="0.5"
+        data-limit-x="true"
+        data-friction-y="0.5"
         data-pointer-events="true"
         data-relative-input="true"
         data-calibrate-x="true"
