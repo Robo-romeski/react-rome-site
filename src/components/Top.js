@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { TweenMax, TweenLite } from 'gsap';
 import ParallaxScene from './ParallaxScene.js';
 import ParallaxLayer from './ParallaxLayer.js';
+import Styles from './css/home.css';
 
 const Robo = {
   email: "me@jeromeomoore.com",
@@ -16,7 +17,7 @@ export default class Top extends Component {
 render(){
 
   return (
-    <div className="contain">
+    <div styles={Styles} className="contain">
     <ParallaxScene>
     <ParallaxLayer depth={0.4}>
     <div id="home-page" className="container-fluid">

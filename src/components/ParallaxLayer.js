@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-// import ReactDOM from 'react-dom';
-// import { TweenMax, TweenLite } from 'gsap';
-// import Parallax from 'parallax.js';
 
 export default class ParallaxLayer extends Component {
 
