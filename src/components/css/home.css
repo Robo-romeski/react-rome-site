@@ -102,16 +102,20 @@ h1{
   padding-bottom: 5%;
   }
 }
-
+@media all and (max-width:768px){
+  .logo_box {
+    border: none;
+  }
+}
 @media all and (max-width:992px){
   h1 {
-    padding: 0;
+    /*padding: 0;*/
   }
   body {
     overflow-x: scroll;
   }
   .logo_box{
-    border: none;
+    /*border: none;*/
     height: auto;
   }
   #inner-container {
