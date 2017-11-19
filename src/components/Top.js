@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 import { TweenMax, TweenLite } from 'gsap';
 import ParallaxScene from './ParallaxScene.js';
 import ParallaxLayer from './ParallaxLayer.js';
-// import Cascade from '../Cascade.css';
-// import Background from '../Background.css';
 
 const Robo = {
   email: "me@jeromeomoore.com",
