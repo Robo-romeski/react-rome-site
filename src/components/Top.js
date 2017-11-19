@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { TweenMax, TweenLite } from 'gsap';
-import Parallax from 'parallax.js';
 import ParallaxScene from './ParallaxScene.js';
 import ParallaxLayer from './ParallaxLayer.js';
 // import Cascade from '../Cascade.css';
