@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { TweenMax, TweenLite } from 'gsap';
 import ParallaxScene from './ParallaxScene.js';
 import ParallaxLayer from './ParallaxLayer.js';
+import ResumeTip from './ResumeTip.js';
+import {Tooltip} from 'react-bootstrap';
 
 const Robo = {
   email: "me@jeromeomoore.com",
@@ -24,6 +26,9 @@ render(){
   <div className="row">
     <div className="col-md-6 logo_box animated zoomInLeft">
       <h1>JEROME O. MOORE</h1>
+      <Tooltip placement="right" className="in" id="tooltip-right">
+      Tooltip right
+    </Tooltip>
     </div>
     <div className="col-md-6">
       <h2>connect with me!</h2>
@@ -35,10 +40,6 @@ render(){
          <li>
           <h3>E</h3>
           <p><a className="reslink" href={`mailto:${Robo.email}`}>{Robo.email}</a></p>
-        </li>
-        <li>
-          <h3>W</h3>
-          <p><a target="_blank" className="reslink">My Resume</a></p>
         </li>
         <li>
           <h3>S</h3>
