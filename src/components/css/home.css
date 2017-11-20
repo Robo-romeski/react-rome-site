@@ -4,8 +4,17 @@ body, html{
   height: 100%;
   margin: 0;
   padding: 0;
-  background: #000;
+  background-color: #000000;
+  background-image: url("../../images/asfalt-light.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  /*background: #000;*/
 }
+
+.fancy {
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
+
 h1{
 font-family: 'Vollkorn SC', serif;
 padding: 60px 70px 12px 20px;
@@ -83,7 +92,7 @@ float: left;
 
 .logo_box{
 float: left;
-border-right: 1px solid #303030;
+border-right: 1px solid #ffffff;
 position: relative;
 height: 350px;
 }
@@ -91,6 +100,7 @@ height: 350px;
  @media all and (max-width:468px) {
    body {
      overflow-x: scroll;
+     overflow-y: hidden;
    }
 .logo_box {
   border-bottom: 1px solid #303030;
@@ -113,6 +123,7 @@ h1{
   }
   body {
     overflow-x: scroll;
+    overflow-y: hidden;
   }
   .logo_box{
     /*border: none;*/
@@ -124,7 +135,7 @@ h1{
 }
 
 #home-page{
-  background: black;
+  background: transparent;
   color: white;
   height: 100%;
 }
