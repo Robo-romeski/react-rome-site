@@ -4,9 +4,9 @@ export default class ParallaxLayer extends Component {
 
   render(){
     return (
-      <li className="layer"
+      <div className="layer"
       data-depth={this.props.depth}>
       {this.props.children}
-      </li>);
+      </div>);
   }
 }

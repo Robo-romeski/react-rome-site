@@ -13,7 +13,7 @@ export default class ParallaxScene extends Component {
   }
   render(){
     return(
-      <ul ref="scene" data-friction-x="0.5"
+      <div ref="scene" data-friction-x="0.5"
         data-friction-y="0.1"
         data-pointer-events="true"
         data-relative-input="true"
@@ -23,6 +23,6 @@ export default class ParallaxScene extends Component {
         data-scalar-x="5"
         data-scalar-y="5">
       {this.props.children}
-     </ul>);
+     </div>);
   }
 }

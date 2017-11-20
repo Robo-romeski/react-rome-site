@@ -17,11 +17,15 @@ body, html{
 
 h1{
 font-family: 'Vollkorn SC', serif;
-padding: 60px 70px 12px 20px;
 color: #fff;
 letter-spacing: -1px;
 font-size: 58px;
 }
+
+.padthai {
+  padding: 60px 70px 12px 20px;
+}
+
 p{
 font-family: 'Montserrat', sans-serif;
 }
