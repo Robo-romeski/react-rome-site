@@ -23,10 +23,6 @@ letter-spacing: -1px;
 font-size: 58px;
 }
 
-.padthai {
-  padding: 60px 70px 12px 20px;
-}
-
 p{
 font-family: 'Montserrat', sans-serif;
 }
@@ -147,7 +143,7 @@ h1{
 
 #inner-container{
   max-width: 600px;
-  margin-top: 50px;
+  margin-top: 150px;
   margin-left: auto;
   margin-right: auto;
 }
