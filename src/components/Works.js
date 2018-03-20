@@ -26,14 +26,13 @@ export default class Works extends Component {
                         <div className="row">
 
                             <div className="">
-                                <h1>Hello!</h1>
                                 <div className="float-right">
                                     <h3> My name is Jerome Moore. I am a tech enthusiast from New York City and a proud U.S. naval veteran. My focuses are developing applications and deploying them for availability, reliability and security.
                         </h3>
                                 </div> </div>
                             <div>
                                 <br />
-                                <p>I am a well versed in many skills surrounding tech; Starting from linux server administration, to most recently landing into a DevOps/Front-end Development hybrid space. In my 10 year history, I have been apart of some magical projects - contact me and ask me how I can help you with your present initiatives. </p>
+                                <p>I am a well versed in many skills surrounding tech; Starting from Linux server administration, to most recently landing into a DevOps/Front-end Development hybrid space. In my 10-year history, I have been a part of some magical projects - contact me and ask me how I can help you with your present initiatives. </p>
                             </div>
                         </div>
 
@@ -45,7 +44,7 @@ export default class Works extends Component {
                             </div>
                             <div className="col-md-8">
                                 <h4>GrahamStak <span>(DevOps Contracting)</span></h4>
-                                <p> This is my latest endeavor - building an automated scaffolding server system from diagramming architecture to completed finished product. running a kubernetes API to deploy docker instances and manage them via ansible playbooks taylored to customer specifications.</p>
+                                <p> This is my latest endeavor - building an automated scaffolding server system from diagramming architecture to completed finished product. running a kubernetes API to deploy docker instances and manage them via ansible playbooks tailored to customer specifications.</p>
                             </div>
                         </div>
 
@@ -56,7 +55,7 @@ export default class Works extends Component {
                             </div>
                             <div className="col-md-8">
                                 <h4>Kepler <span>(Web-based ssh-shell)</span></h4>
-                                <p>I was the lead on this revolutionary project; using web sockets and a node proxy server to relay commands back and forth to an OpenStack API instance. Giving shell access through your web browser opens up levels of convienence not known in todays cloud.  </p>
+                                <p>I was the lead on this revolutionary project; using web sockets and a node proxy server to relay commands back and forth to an OpenStack API instance. Giving shell access through your web browser opens up levels of convenience not known in todays cloud.  </p>
                             </div>
                         </div>
                         <hr />
@@ -66,7 +65,7 @@ export default class Works extends Component {
                             </div>
                             <div className="col-md-8">
                                 <h4>Hubble <span>(NoVNC)</span></h4>
-                                <p>Creating the ability for GUI experiences on linux machines was a interesting step for the me; It became a fun experience and taught me alot more about security and video encoding. All in all an excellent project to be a part of.   </p>
+                                <p>Creating the ability for GUI experiences on Linux machines was an interesting step for the me; It became a fun experience and taught me a lot more about security and video encoding. All in all, an excellent project to be a part of.   </p>
                             </div>
                         </div>
 
@@ -78,7 +77,7 @@ export default class Works extends Component {
                             </div>
                             <div className="col-md-8">
                                 <h4>Color For Code <span>(CI/CD integration)</span></h4>
-                                <p> I was approached by the owners to automate the deployment pipeline - I used husky.js to access the post deploy git hooks, that trigger off an ansible playbook to download prodiction branch, build production files, then move into the web directory and finally restarts nginx. </p>
+                                <p> I was approached by the owners to automate the deployment pipeline - I used husky.js to access the post deploy git hooks, that trigger off an ansible playbook to download production branch, build production files, then move into the web directory and finally restarts nginx. </p>
                             </div>
                         </div>
                         <hr />
@@ -88,7 +87,7 @@ export default class Works extends Component {
                             </div>
                             <div className="col-md-8">
                                 <h4>ISow <span>(Backend platform for analytics platforms)</span></h4>
-                                <p> aggrigated data from database users and google analytics page views to narrow down key metrics, to measure performance initiatives.</p>
+                                <p> aggregated data from database users and google analytics page views to narrow down key metrics, to measure performance initiatives.</p>
                             </div>
                         </div>
 
@@ -100,7 +99,7 @@ export default class Works extends Component {
                             </div>
                             <div className="col-md-8">
                                 <h4>JustBonita <span>(Web Design/Development)</span></h4>
-                                <p> one of my favorite projects in my dive into freelancing - creating a custom site with a video background, music purchase page and blog integration. GSAP.js animations for page transitions and mouseovers, responsive design, as well as platform specific adaptations (iTunes/Google Play markets) </p>
+                                <p> one of my favorite projects in my dive into freelancing - creating a custom site with a video background, music purchase page and blog integration. GSAP.js animations for page transitions and mouse overs, responsive design, as well as platform specific adaptations (iTunes/Google Play markets) </p>
                             </div>
                         </div>
 

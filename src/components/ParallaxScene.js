@@ -7,7 +7,6 @@ export default class ParallaxScene extends Component {
   componentDidMount(){
     new Parallax(this.refs.scene);
     // this._renderContent(this.props);
-
   }
   render(){
     return(

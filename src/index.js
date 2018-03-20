@@ -5,7 +5,6 @@ import { BrowserRouter } from 'react-router-dom';
 import './components/css/bootstrap/bootstrap.css';
 import '../node_modules/font-awesome/css/font-awesome.css';
 import './components/css/animate.css';
-import './components/css/animations.css';
 import './components/css/home.css';
 
 

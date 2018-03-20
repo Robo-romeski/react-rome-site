@@ -13,16 +13,13 @@
 }
 .profile, .giffies {
  max-width: 300px;
+ width: 100%;
 }
 .works-container {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #ffffff;
-}
-.works-container h1 {
-  font-family: 'Montserrat', sans-serif;
-  color: black;
 }
 
 .works-header {
@@ -91,7 +88,6 @@ width: 28px;
 height: 28px;
 color: white;
 margin-right: 8px;
-float: left;
 }
 a:hover {
   text-decoration:none;
@@ -100,7 +96,6 @@ ul.info li p.social a:hover{
 width: 28px;
 height: 28px;
 color: #ffe400;
-float: left;
 text-decoration: none;
 }
 .reslink{
