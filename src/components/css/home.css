@@ -1,14 +1,32 @@
 @import url('http://fonts.googleapis.com/css?family=Pacifico|Montserrat|Vollkorn+SC');
 
-body, html{
+.top-container{
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   background-color: #000000;
-  background-image: url("../../images/asfalt-light.png");
-  overflow-x: hidden;
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  /*background: #000;*/
+  background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+}
+.profile, .giffies {
+ max-width: 300px;
+}
+.works-container {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+.works-container h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+.works-header {
+  padding-top: 1%;
 }
 
 .fancy {
@@ -75,20 +93,22 @@ color: white;
 margin-right: 8px;
 float: left;
 }
-
-
+a:hover {
+  text-decoration:none;
+}
 ul.info li p.social a:hover{
 width: 28px;
 height: 28px;
-color: yellow;
+color: #ffe400;
 float: left;
+text-decoration: none;
 }
 .reslink{
   color: white;
   text-decoration: none;
 }
 .reslink:hover{
-  color:yellow;
+  color:#ffe400;
 }
 
 .logo_box{

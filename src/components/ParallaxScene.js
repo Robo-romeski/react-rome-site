@@ -16,8 +16,8 @@ export default class ParallaxScene extends Component {
         data-pointer-events="true"
         data-relative-input="true"
         data-calibrate-x="true"
-        data-limit-x="50"
-        data-limit-y="50"
+        data-limit-x="5"
+        data-limit-y="5"
         data-scalar-x="5"
         data-scalar-y="5">
       {this.props.children}

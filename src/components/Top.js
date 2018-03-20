@@ -16,6 +16,7 @@ export default class Top extends Component {
   render() {
 
     return (
+      <div className="top-container fadeInDown animated">
       <div className="contain">
         <ParallaxScene>
           <ParallaxLayer depth={0.4}>
@@ -27,6 +28,7 @@ export default class Top extends Component {
                     />
           </ParallaxLayer>
         </ParallaxScene>
+      </div>
       </div>
     );
   }
