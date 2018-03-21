@@ -48,6 +48,10 @@ color: #ffe400;
 font-size: 24px;
 margin-bottom: 20px;
 }
+.title-name {
+  font-family: 'Pacifico', cursive;
+  color: #ffe400;
+}
 
 h3{
 font-size: 24px;

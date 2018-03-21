@@ -8,8 +8,8 @@ export default class Card extends Component {
             <div id="inner-container" className="container">
               <div className="row">
                 <div className="col-md-6 logo_box">
-                  <div className="animated zoomInLeft"><h1>JEROME O. MOORE</h1></div>
-                  <p>Currently in the market for: <br/> Front-end React <br/> DevOps roles</p>
+                  <div className=""><h1>JEROME O. MOORE</h1></div>
+                  <p className="title-name">Cross Functional Technologist</p>
                 </div>
                 
                 <div className="col-md-6">

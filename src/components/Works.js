@@ -27,7 +27,7 @@ export default class Works extends Component {
 
                             <div className="">
                                 <div className="float-right">
-                                    <h3> My name is Jerome Moore. I am a tech enthusiast from New York City and a proud U.S. naval veteran. My focuses are developing applications and deploying them for availability, reliability and security.
+                                    <h3> My name is Jerome Moore. I am a tech enthusiast from New York City and a proud U.S. naval veteran. My focuses are developing applications and deploying them for availability, reliability and security. I am currently in the market for Front-end React and DevOps roles.
                         </h3>
                                 </div> </div>
                             <div>
