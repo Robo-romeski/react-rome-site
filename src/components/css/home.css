@@ -113,6 +113,7 @@ text-decoration: none;
 float: left;
 border-right: 1px solid #ffffff;
 position: relative;
+transition: all 0.4s ease;
 
 }
 
@@ -210,4 +211,8 @@ h1{
 }
 .footer h1:hover{
   color:#ffe400;
+  text-decoration: none;
+}
+a:hover, a:visited{
+  text-decoration: none;
 }
