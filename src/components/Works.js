@@ -97,7 +97,7 @@ export default class Works extends Component {
                                 <img src={isow} className="giffies" alt="ISow.com"/>
                             </div>
                             <div className="col-md-8">
-                                <h4>ISow <span>(Backend platform for analytics platforms)</span></h4>
+                                <h4>ISow <span>(Backend platform for analytics)</span></h4>
                                 <p> aggregated data from database users and google analytics page views to narrow down key metrics and measure performance initiatives.</p>
                             </div>
                         </div>
