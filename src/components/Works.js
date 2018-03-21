@@ -64,7 +64,7 @@ export default class Works extends Component {
                             </div>
                             <div className="col-md-8">
                                 <h4>Kepler <span>(Web-based ssh-shell)</span></h4>
-                                <p>I was the lead on this revolutionary project; using web sockets and a node proxy server to relay commands back and forth to an OpenStack API instance. Giving shell access through your web browser opens up levels of convenience not known in todays cloud.  </p>
+                                <p>I was the lead on this revolutionary project; using web sockets and a node proxy server to relay commands back and forth to an OpenStack API instance. Giving shell access through your web browser opens up levels of convenience not known in todays cloud environments.  </p>
                             </div>
                         </div>
                         <hr />
@@ -74,7 +74,9 @@ export default class Works extends Component {
                             </div>
                             <div className="col-md-8">
                                 <h4>Hubble <span>(NoVNC)</span></h4>
-                                <p>Creating the ability for GUI experiences on Linux machines was an interesting step for the me; It became a fun experience and taught me a lot more about security and video encoding. All in all, an excellent project to be a part of.   </p>
+                                <p>Creating the ability for GUI interations on the platform for Linux machines was an interesting project feature
+                                    for me; It became a fun experience and taught me a lot more about security and video encoding. 
+                                    All in all, an excellent project to be a part of.   </p>
                             </div>
                         </div>
 
@@ -96,7 +98,7 @@ export default class Works extends Component {
                             </div>
                             <div className="col-md-8">
                                 <h4>ISow <span>(Backend platform for analytics platforms)</span></h4>
-                                <p> aggregated data from database users and google analytics page views to narrow down key metrics, to measure performance initiatives.</p>
+                                <p> aggregated data from database users and google analytics page views to narrow down key metrics and measure performance initiatives.</p>
                             </div>
                         </div>
 
@@ -108,7 +110,11 @@ export default class Works extends Component {
                             </div>
                             <div className="col-md-8">
                                 <h4>JustBonita <span>(Web Design/Development)</span></h4>
-                                <p> one of my favorite projects in my dive into freelancing - creating a custom site with a video background, music purchase page and blog integration. GSAP.js animations for page transitions and mouse overs, responsive design, as well as platform specific adaptations (iTunes/Google Play markets) </p>
+                                <p> one of my favorite projects in my dive into freelancing - 
+                                    creating a custom site with a video background, music purchase page 
+                                    and blog integration. GSAP.js animations for page transitions 
+                                    and mouse overs, responsive design, as well as platform specific 
+                                    adaptations (iTunes/Google Play markets). </p>
                             </div>
                         </div>
 
