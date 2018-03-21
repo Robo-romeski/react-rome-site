@@ -214,5 +214,5 @@ h1{
   text-decoration: none;
 }
 a:hover, a:visited{
-  text-decoration: none;
+  text-decoration: none !important;
 }
