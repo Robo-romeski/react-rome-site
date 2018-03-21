@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import { TweenLite } from 'gsap';
+import ReactDOM from 'react-dom';
+import {Link} from 'react-router-dom';
+// import { TweenLite } from 'gsap';
+// import profile from '../images/profile.jpg';
 import Card from './Card.js';
-import profile from '../images/profile.jpg';
+import Footer from './Footer.js';
 import kepler from '../images/kepler-ol.gif';
 import hubble from '../images/hubble.gif';
 import colorforcode from '../images/c4c.png';
@@ -10,6 +13,12 @@ import grahamstak from '../images/graham-stak.png';
 import isow from '../images/isow.png';
 
 export default class Works extends Component {
+
+    componentWillUnmount(){
+        let hinge = ReactDOM.findDOMNode(this.refs.hinge);
+        console.log(hinge);
+        ReactDOM.unmountComponentAtNode(hinge);
+    }
 
     render() {
         const Robo = {
@@ -40,7 +49,7 @@ export default class Works extends Component {
 
                         <div className="row">
                             <div className="col-md-4">
-                                <img src={grahamstak} className="giffies" />
+                                <img src={grahamstak} className="giffies" alt="GrahamStak.com" />
                             </div>
                             <div className="col-md-8">
                                 <h4>GrahamStak <span>(DevOps Contracting)</span></h4>
@@ -51,7 +60,7 @@ export default class Works extends Component {
                         <hr/>
                         <div className="row">
                             <div className="col-md-4">
-                                <img src={kepler} className="giffies" />
+                                <img src={kepler} className="giffies" alt="SystemOnGrid.com"/>
                             </div>
                             <div className="col-md-8">
                                 <h4>Kepler <span>(Web-based ssh-shell)</span></h4>
@@ -61,7 +70,7 @@ export default class Works extends Component {
                         <hr />
                         <div className="row">
                             <div className="col-md-4">
-                                <img src={hubble} className="giffies" />
+                                <img src={hubble} className="giffies" alt="SystemOnGrid.com"/>
                             </div>
                             <div className="col-md-8">
                                 <h4>Hubble <span>(NoVNC)</span></h4>
@@ -73,7 +82,7 @@ export default class Works extends Component {
 
                         <div className="row">
                             <div className="col-md-4">
-                                <img src={colorforcode} className="giffies" />
+                                <img src={colorforcode} className="giffies" alt="ColorForCode.com"/>
                             </div>
                             <div className="col-md-8">
                                 <h4>Color For Code <span>(CI/CD integration)</span></h4>
@@ -83,7 +92,7 @@ export default class Works extends Component {
                         <hr />
                         <div className="row">
                             <div className="col-md-4">
-                                <img src={isow} className="giffies" />
+                                <img src={isow} className="giffies" alt="ISow.com"/>
                             </div>
                             <div className="col-md-8">
                                 <h4>ISow <span>(Backend platform for analytics platforms)</span></h4>
@@ -95,7 +104,7 @@ export default class Works extends Component {
 
                         <div className="row">
                             <div className="col-md-4">
-                                <img src={bonita} className="giffies" />
+                                <img src={bonita} className="giffies" alt="JustBonita"/>
                             </div>
                             <div className="col-md-8">
                                 <h4>JustBonita <span>(Web Design/Development)</span></h4>
@@ -110,7 +119,7 @@ export default class Works extends Component {
 
                     </div>
                 </div>
-                <div className="hinge animated top-container">
+                <div className="hinge animated top-container" ref="hinge" id="hinge">
                     <Card phone={Robo.phone}
                         email={Robo.email}
                         skype={Robo.skype}
@@ -118,6 +127,8 @@ export default class Works extends Component {
                         linkedin={Robo.linkedin}
                     />
                 </div>
+                
+                <Footer/>
 
             </div>
         )

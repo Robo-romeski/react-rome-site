@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Top from './Top.js';
 import Works from './Works.js';
-import { Route, Switch } from 'react-router-dom';
-import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import { Route } from 'react-router-dom';
 
 
 class App extends Component {
