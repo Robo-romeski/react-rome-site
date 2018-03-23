@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 // import { TweenLite } from 'gsap';
 // import profile from '../images/profile.jpg';
 import Card from './Card.js';
+import Skills from './Skills.js';
 import Footer from './Footer.js';
 import kepler from '../images/kepler-ol.gif';
 import hubble from '../images/hubble.gif';
@@ -44,7 +45,7 @@ export default class Works extends Component {
                                 <p>I am a well versed in many skills surrounding tech; Starting from Linux server administration, to most recently landing into a DevOps/Front-end Development hybrid space. In my 10-year history, I have been a part of some magical projects - contact me and ask me how I can help you with your present initiatives. </p>
                             </div>
                         </div>
-
+                            <Skills/>
                         <hr />
 
                         <div className="row">
