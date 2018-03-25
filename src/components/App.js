@@ -10,6 +10,7 @@ class App extends Component {
       <div>
         <Route exact path="/" component={Top} />
         <Route exact path="/works" component={Works} />
+        <Route exact path="/works/:transition" component={Works} />
       </div>
     );
   }

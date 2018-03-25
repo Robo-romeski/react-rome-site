@@ -21,7 +21,7 @@ export default class Card extends Component {
                     </li>
                     <li>
                       <h3>Portfolio</h3>
-                      <Link to='/works'><p className="reslink finga">My Works</p></Link>
+                      <Link to='/works/transition'><p className="reslink finga">My Works</p></Link>
                     </li>
                     <li>
                       <h3>Social</h3>

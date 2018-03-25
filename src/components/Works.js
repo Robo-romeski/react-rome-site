@@ -29,6 +29,8 @@ export default class Works extends Component {
             github: "https://github.com/Robo-romeski",
             linkedin: "https://www.linkedin.com/in/jerome-o-moore"
         }
+        const transition = this.props.match.params.transition;
+        console.log()
         return (
             <div className="works-container">
                 <div className="works-header">
@@ -126,14 +128,16 @@ export default class Works extends Component {
 
                     </div>
                 </div>
-                <div className="hinge animated top-container" ref="hinge" id="hinge">
-                    <Card phone={Robo.phone}
-                        email={Robo.email}
-                        skype={Robo.skype}
-                        github={Robo.github}
-                        linkedin={Robo.linkedin}
-                    />
-                </div>
+                {transition && 
+                    <div className="hinge animated top-container" ref="hinge" id="hinge">
+                        <Card phone={Robo.phone}
+                            email={Robo.email}
+                            skype={Robo.skype}
+                            github={Robo.github}
+                            linkedin={Robo.linkedin}
+                        />
+                    </div>
+                }
                 
                 <Footer/>
 
