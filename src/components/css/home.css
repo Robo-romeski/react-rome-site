@@ -178,10 +178,18 @@ h1{
   padding-top: 0;
   padding-bottom: 5%;
   }
+  .is-visible {
+    height: 950px;
+    opacity: 1;
+  }
 }
 @media all and (max-width:768px){
   .logo_box {
     border: none;
+  }
+  .is-visible {
+    height: 950px;
+    opacity: 1;
   }
 }
 @media all and (max-width:992px){
@@ -198,6 +206,10 @@ h1{
   }
   #inner-container {
     margin: 0;
+  }
+  .is-visible {
+    height: 950px;
+    opacity: 1;
   }
 }
 
