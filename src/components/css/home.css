@@ -179,7 +179,7 @@ h1{
   padding-bottom: 5%;
   }
   .is-visible {
-    height: 1550px;
+    height: 2050px;
     opacity: 1;
   }
 }
@@ -188,7 +188,7 @@ h1{
     border: none;
   }
   .is-visible {
-    height: 1550px;
+    height: 1750px;
     opacity: 1;
   }
 }
