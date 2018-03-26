@@ -33,14 +33,15 @@ const ShowMe = ({hidden}) => {
         <div className='container headroom'>
         <div className='row'>
         <div className='col-md-6'>
-        <h3>DevOps</h3>
+        
         </div>
         <div className='col-md-6'>
-        <h3>Front-End</h3>
+        
         </div>
         </div>
         <div className='row headroom'>
         <div className='col-md-6 skills-devops'>
+        <h1>DevOps</h1>
         <div className='row'>
         <div className='col-6'>
         <ul>
@@ -150,6 +151,7 @@ const ShowMe = ({hidden}) => {
         </div>
         
         <div className='col-md-6 skills-front'>
+        <h1>Front-End</h1>
         <div className='row'>
         <div className='col-6'>
         <ul>
