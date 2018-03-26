@@ -15,25 +15,28 @@ onUpdateTransition = async () => {
     // debugger
 }
     render(){
+      var style = {
+        color: 'white',
+      }
         return (
             <div id="home-page" className="container-fluid">
             <div id="inner-container" className="container">
               <div className="row">
                 <div className="col-md-6 logo_box">
                   <div className=""><h1>JEROME O. MOORE</h1></div>
-                  <p className="title-name">Cross Functional Technologist</p>
+                  <h4 className="title-name">Cross Functional Technologist</h4>
                 </div>
                 
                 <div className="col-md-6">
-                  <h2>connect with me!</h2>
+                  <h2 style={style}>connect with me!</h2>
                   <ul className="info">
                     <li>
                       <h3>E-mail</h3>
                       <p><a className="reslink" href={`mailto:${this.props.email}`}>{this.props.email}</a></p>
                     </li>
-                    <li>
-                      <h3>Portfolio</h3>
-                      <p onClick={this.onUpdateTransition}><p className="reslink finga" >My Works</p></p>
+                    <li onClick={this.onUpdateTransition}>
+                      <h3 className="finga">Portfolio</h3>
+                      <p ><p className="reslink finga">My Works</p></p>
                     </li>
                     <li>
                       <h3>Social</h3>

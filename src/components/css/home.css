@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Pacifico|Montserrat|Vollkorn+SC');
+@import url('http://fonts.googleapis.com/css?family=Pacifico|Montserrat|Vollkorn+SC|Fascinate+Inline');
 
 .pre-loader{
   position: fixed;
@@ -8,23 +8,43 @@
   bottom: 0;
   background-color: #16141c;
 }
+.btn-skills{
+  color: #111;
+  background-color: #ffe400;
+  border-color: #111;
+}
 .status{
   width: 200px;
   height:200px;
   position: absolute;
   top: 50%;
 }
+.skills-devops{
+  background: rgba(0,0,0,0.2);
+  padding: 20px;
+}
+.skills-front{
+  background: rgba(255, 228, 0, 0.2);
+  padding: 20px;
+}
 .skills{
-  display: none;
   height: 0;
   opacity: 0;
   overflow: hidden;
-  transition: height 350ms ease-in-out, opacity 750ms ease-in-out;
+  
 }
-.skills .is-visible {
-  display: block;
-  height: auto;
+.headroom{
+  padding-top: 20px;
+}
+.is-visible {
+  height: 550px;
   opacity: 1;
+}
+.skills-transition{
+transition: height 1s ease-in-out, opacity 3s;
+}
+.fade-in{
+  transition: opacity 7s ease-in-out;
 }
 .top-container{
   position: fixed;
@@ -75,7 +95,7 @@ font-size: 24px;
 margin-bottom: 20px;
 }
 .title-name {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Fascinate Inline', cursive;
   color: #ffe400;
 }
 
@@ -101,6 +121,9 @@ float: left;
 ul.info li{
 clear: both;
 float: left;
+}
+ul.info li h3{
+  color: #ffe400;
 }
 
 ul.info li p{
