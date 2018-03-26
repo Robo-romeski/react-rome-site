@@ -162,8 +162,7 @@ const ShowMe = ({hidden}) => {
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         </li> <br/>
-    <li>CSS3</li>
-    <ul>
+    <li style={{color:'white'}}>CSS3</li>
     <li>SASS</li>
         <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
@@ -192,7 +191,6 @@ const ShowMe = ({hidden}) => {
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         </li> <br/>
-        </ul>
         
     <li>JavaScript(ES6)</li>
     <li><i className="fa fa-star"></i>
@@ -212,8 +210,8 @@ const ShowMe = ({hidden}) => {
         <i className="fa fa-star"></i>
         <i className="fa fa-star-o"></i>
         </li> <br/>
-    <li>Node.js</li>
-    <ul>
+    <li style={{color:'white'}}>Node.js</li>
+    
     <li>NPM </li>
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
@@ -235,10 +233,9 @@ const ShowMe = ({hidden}) => {
         <i className="fa fa-star-o"></i>
         <i className="fa fa-star-o"></i>
         </li> <br/>
-    </ul>
-    <li>SQL</li>
-    <ul>
-    <li>MySQL</li>
+    <li style={{color:'white'}}>SQL</li>
+
+    <li>DataBase</li>
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
@@ -252,16 +249,14 @@ const ShowMe = ({hidden}) => {
         <i className="fa fa-star-o"></i>
         <i className="fa fa-star-o"></i>
         </li> <br/>
-        </ul>
-        <li>NoSQL</li>
-        <ul><li>MongoDB</li>
+        <li>MongoDB</li>
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star    "></i>
         <i className="fa fa-star-o"></i>
         </li> <br/>
-            </ul>
+
 </ul>
 
 
