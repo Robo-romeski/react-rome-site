@@ -1,7 +1,19 @@
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { updateTransition } from '../actions/transition-actions';
+import { withRouter } from 'react-router-dom';
 
-export default class Card extends Component {
+class Card extends Component {
+  constructor(props){
+    super(props);
+}
+onUpdateTransition = async () => {
+    await this.props.updateTransition(true, this.props.history);
+    this.props.history.push('/works');
+    // debugger
+}
     render(){
         return (
             <div id="home-page" className="container-fluid">
@@ -21,7 +33,7 @@ export default class Card extends Component {
                     </li>
                     <li>
                       <h3>Portfolio</h3>
-                      <Link to='/works/transition'><p className="reslink finga">My Works</p></Link>
+                      <p onClick={this.onUpdateTransition}><p className="reslink finga" >My Works</p></p>
                     </li>
                     <li>
                       <h3>Social</h3>
@@ -39,3 +51,12 @@ export default class Card extends Component {
         )
     }
 }
+
+function mapStateToProps(state, props)  {
+  return {transition : state.transition}
+}
+
+function mapActionsToProps(dispatch, props) {
+  return {updateTransition: (bool, router) => dispatch(updateTransition(bool, router)),}
+}
+export default withRouter(connect(mapStateToProps, mapActionsToProps)(Card));

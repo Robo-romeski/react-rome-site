@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-
+import { Provider } from 'react-redux';
+import store from './Store';
 import './components/css/bootstrap/bootstrap.css';
 import '../node_modules/font-awesome/css/font-awesome.css';
 import './components/css/animate.css';
@@ -12,9 +13,11 @@ import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 // import './index.css';
 
-ReactDOM.render(<BrowserRouter>
+ReactDOM.render(    <Provider store={store}>
+                    <BrowserRouter>
                     <App />
-                    </BrowserRouter>, 
+                    </BrowserRouter>
+                    </Provider>, 
                     document.getElementById('root'));
 
 registerServiceWorker();

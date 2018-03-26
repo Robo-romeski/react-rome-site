@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 // import { TweenMax, TweenLite } from 'gsap';
+import { connect } from 'react-redux';
+import {updateTransition} from '../actions/transition-actions';
 import ParallaxScene from './ParallaxScene.js';
 import ParallaxLayer from './ParallaxLayer.js';
 import Card from './Card.js';
@@ -12,7 +14,7 @@ const Robo = {
   linkedin: "https://www.linkedin.com/in/jerome-o-moore"
 }
 
-export default class Top extends Component {
+class Top extends Component {
   render() {
 
     return (
@@ -33,3 +35,5 @@ export default class Top extends Component {
     );
   }
 }
+
+export default Top;

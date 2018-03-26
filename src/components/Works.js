@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import {Link} from 'react-router-dom';
+import { connect } from 'react-redux';
+import {updateTransition} from '../actions/transition-actions';
 // import { TweenLite } from 'gsap';
 // import profile from '../images/profile.jpg';
 import Card from './Card.js';
@@ -13,14 +15,10 @@ import bonita from '../images/bonita.png';
 import grahamstak from '../images/graham-stak.png';
 import isow from '../images/isow.png';
 
-export default class Works extends Component {
-
-    componentWillUnmount(){
-        let hinge = ReactDOM.findDOMNode(this.refs.hinge);
-        console.log(hinge);
-        ReactDOM.unmountComponentAtNode(hinge);
-    }
-
+class Works extends Component {
+constructor(props){
+    super(props);
+}
     render() {
         const Robo = {
             email: "me@jeromeomoore.com",
@@ -29,8 +27,8 @@ export default class Works extends Component {
             github: "https://github.com/Robo-romeski",
             linkedin: "https://www.linkedin.com/in/jerome-o-moore"
         }
-        const transition = this.props.match.params.transition;
-        console.log()
+        const transition = this.props.transition;
+        console.log('trans', transition)
         return (
             <div className="works-container">
                 <div className="works-header">
@@ -145,3 +143,14 @@ export default class Works extends Component {
         )
     }
 }
+
+function mapStateToProps(state, props)  {
+    return {transition : state.transition}
+}
+
+function mapActionsToProps(dispatch, props) {
+    return {onUpdateTransition: (bool, router) => dispatch(updateTransition(bool, router)),}
+}
+
+export default connect(mapStateToProps, mapActionsToProps)(Works);
+
