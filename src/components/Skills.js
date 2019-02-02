@@ -92,6 +92,14 @@ const ShowMe = ({hidden}) => {
         <i className="fa fa-star-o"></i>
         <i className="fa fa-star-o"></i>
         </li> <br/>
+        <br/>
+        <li>Kubernetes</li>    
+    <li><i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star-o"></i>
+        </li> <br/>
 </ul>
         </div>
         <div className='col-6'>
@@ -139,6 +147,14 @@ const ShowMe = ({hidden}) => {
         <i className="fa fa-star-o"></i>
         </li> <br/>
         <li>AWS</li>    
+    <li><i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star-o"></i>
+        </li> <br/>
+        <br/>
+        <li>Terraform</li>    
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
