@@ -14,6 +14,7 @@ import colorforcode from '../images/c4c.png';
 import grahamstak from '../images/graham-stak.png';
 import igt from '../images/ingeniousthought.png';
 import isow from '../images/isow.png';
+import romecode from '../images/romecode.jpg';
 
 class Works extends Component {
     constructor(props) {
@@ -50,6 +51,17 @@ class Works extends Component {
 
                         <div className="row">
                             <div className="col-md-4">
+                                <img src={romecode} className="giffies" alt="Romecode.com" />
+                            </div>
+                            <div className="col-md-8">
+                                <h4>RomeCode </h4>
+                                <p> Most Recently I have been a w-9 contractor through my LLC; My focus projects include an Apache Airflow ETL email pipeline from Databricks to an AWS ECS cluster that kicked off a SQS/Lambda function, sending out 2 million emails daily; A deploy dev-to-prod CI/CD pipeline (gitlab), A monitoring/escalation plan with datadog &#38; pagerduty, and an elasticsearch cluster with node autoscaling (based off of heap size and cpu load)</p>
+                            </div>
+                        </div>
+                        <hr />
+
+                        <div className="row">
+                            <div className="col-md-4">
                                 <img src={igt} className="giffies" alt="GrahamStak.com" />
                             </div>
                             <div className="col-md-8">
@@ -64,8 +76,8 @@ class Works extends Component {
                                 <img src={grahamstak} className="giffies" alt="GrahamStak.com" />
                             </div>
                             <div className="col-md-8">
-                                <h4>GrahamStak <span>(DevOps Contracting)</span></h4>
-                                <p> As tech lead, I was put in charge of building and automating/scaffolding customer cloud systems from diagrammed architecture to completion. using docker/ansible/jenkins/k8s/terraform/DC/OS, prometheus for monitoring.</p>
+                                <h4>GrahamStak <span></span></h4>
+                                <p> As project lead, I was put in charge of building and automating/scaffolding customer cloud systems from diagrammed architecture to completion. using docker/ansible/jenkins/k8s/terraform/DC/OS, prometheus for monitoring.</p>
                             </div>
                         </div>
 

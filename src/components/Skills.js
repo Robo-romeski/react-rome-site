@@ -57,13 +57,13 @@ const ShowMe = ({hidden}) => {
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
-        <i className="fa fa-star-o"></i>
+        <i className="fa fa-star"></i>
         </li> <br/>
     <li>Kubernetes</li>    
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
-        <i className="fa fa-star-o"></i>
+        <i className="fa fa-star"></i>
         <i className="fa fa-star-o"></i>
         </li> <br/>
     <li>Bash</li>    <li><i className="fa fa-star"></i>
@@ -89,7 +89,7 @@ const ShowMe = ({hidden}) => {
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
-        <i className="fa fa-star-o"></i>
+        <i className="fa fa-star"></i>
         <i className="fa fa-star-o"></i>
         </li> <br/>
         <br/>
@@ -104,7 +104,7 @@ const ShowMe = ({hidden}) => {
         </div>
         <div className='col-6'>
         <ul>
-    <li>Mobile Emulation</li>    
+    <li>Packer</li>    
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
@@ -136,17 +136,17 @@ const ShowMe = ({hidden}) => {
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
-        <i className="fa fa-star-o"></i>
+        <i className="fa fa-star"></i>
         <i className="fa fa-star-o"></i>
         </li> <br/>
-    <li>Sentry.js</li>    
+    <li>Python</li>    
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
+        <i className="fa fa-star-o"></i>
         <i className="fa fa-star-o"></i>
         </li> <br/>
-        <li>AWS</li>    
+        <li>AWS/Azure</li>    
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
@@ -200,19 +200,22 @@ const ShowMe = ({hidden}) => {
         <i className="fa fa-star"></i>
         <i className="fa fa-star-o"></i>
         </li> <br/>
-        <li>Bootstrap</li>    
-    <li><i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        </li> <br/>
+    
+    <li style={{color:'white'}}>Javascript</li>
         
-    <li>JavaScript(ES6)</li>
+    <li>ES6</li>
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
+        <i className="fa fa-star-o"></i>
+        </li> <br/>
+
+        <li>Babel</li>
+        <li><i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star-o"></i>
         <i className="fa fa-star-o"></i>
         </li> <br/>
         </ul>
@@ -246,17 +249,17 @@ const ShowMe = ({hidden}) => {
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
-        <i className="fa fa-star-o"></i>
+        <i className="fa fa-star"></i>
         <i className="fa fa-star-o"></i>
         </li> <br/>
-    <li style={{color:'white'}}>SQL</li>
+    <li style={{color:'white'}}>Databases</li>
 
-    <li>DataBase</li>
+    <li>NoSQL</li>
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
+        <i className="fa fa-star-o"></i>
         </li> <br/>
         <li>PostGreSQL</li>
     <li><i className="fa fa-star"></i>
