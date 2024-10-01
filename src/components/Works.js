@@ -11,6 +11,8 @@ import Footer from './Footer.js';
 import kepler from '../images/kepler-ol.gif';
 import hubble from '../images/hubble.gif';
 import colorforcode from '../images/c4c.png';
+import procore from '../images/procore.png';
+import easymetrics from '../images/easymetrics.png'
 import grahamstak from '../images/graham-stak.png';
 import igt from '../images/ingeniousthought.png';
 import isow from '../images/isow.png';
@@ -29,7 +31,7 @@ class Works extends Component {
             linkedin: "https://www.linkedin.com/in/jerome-o-moore"
         }
         const transition = this.props.transition;
-        // console.log('trans', transition)
+
         return (
             <div className="works-container">
                 <div className="works-header">
@@ -43,10 +45,35 @@ class Works extends Component {
                                 </div> </div>
                             <div>
                                 <br />
-                                <p>I am a well versed in many skills surrounding tech; Starting from Linux server administration, to most recently landing into a DevOps/Full-stack development hybrid space. In my 10-year history, I have been a part of some magical projects - contact me and ask me how I can help you with your present initiatives. </p>
+                                <p>I am a versatile technology professional with 15 years of experience, starting with Linux server administration and evolving into the DevOps hybrid space. Throughout my career, I’ve contributed to numerous innovative projects, including building scalable infrastructure, implementing automation, and enhancing system reliability. My skill set covers a broad range, and I specialize in aligning technical solutions with business objectives. Contact me to discuss how I can support your current initiatives with my expertise.</p>
                             </div>
                         </div>
                         <Skills />
+
+                        <hr />
+
+                        <div className="row">
+                            <div className="col-md-4">
+                                <img src={procore} className="giffies profile-space" alt="Procore.com" />
+                            </div>
+                            <div className="col-md-8">
+                                <h4>Procore </h4>
+                                <p> Started out as part of an embedded SRE team that spearheaded a \"You build it, you run it\" movement - decoupling the monolith ruby codebase into supported microservices. Created the pipeline, packaged necessary infrastructure into re-usable modules, and consulted developer in areas of friction. Now I am part of the team that manages the compute platform (Kubernetes) responsible for cluster upgrades & maintainence. </p>
+                            </div>
+                        </div>
+
+                        <hr />
+
+                        <div className="row">
+                            <div className="col-md-4">
+                                <img src={easymetrics} className="giffies profile-space" alt="easymetrics.com" />
+                            </div>
+                            <div className="col-md-8">
+                                <h4>EasyMetrics </h4>
+                                <p> 
+                                As a consultant, I led the observability efforts for their products, utilizing OpenTelemetry to build comprehensive dashboards, manage metric exporters, and oversee multiple Prometheus gateways. I packaged observability code using Infrastructure as Code (IaC) with a convention that streamlined the process of adding new clusters. Additionally, I implemented an alerting system and established an on-call rotation for the development team.</p>
+                            </div>
+                        </div>
                         <hr />
 
                         <div className="row">

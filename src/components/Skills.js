@@ -31,17 +31,9 @@ const ShowMe = ({hidden}) => {
     return(
         <div style={style} className={`skills ${visy}`}>
         <div className='container headroom'>
-        <div className='row'>
-        <div className='col-md-6'>
-        
-        </div>
-        <div className='col-md-6'>
-        
-        </div>
-        </div>
         <div className='row headroom'>
-        <div className='col-md-6 skills-devops'>
-        <h1>DevOps</h1>
+        <div className='col-md-12 skills-devops'>
+
         <div className='row'>
         <div className='col-6'>
         <ul>
@@ -64,7 +56,7 @@ const ShowMe = ({hidden}) => {
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
-        <i className="fa fa-star-o"></i>
+        <i className="fa fa-star"></i>
         </li> <br/>
     <li>Bash</li>    <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
@@ -79,11 +71,12 @@ const ShowMe = ({hidden}) => {
         <i className="fa fa-star-o"></i>
         </li> <br/>
 
-        <li>nGinx</li>    <li><i className="fa fa-star"></i>
+        <li>Argo</li>    
+        <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
+        <i className="fa fa-star-o"></i>
         </li> <br/>
     <li>Jenkins</li>    
     <li><i className="fa fa-star"></i>
@@ -94,6 +87,13 @@ const ShowMe = ({hidden}) => {
         </li> <br/>
         <br/>
         <li>Kubernetes</li>    
+    <li><i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star-o"></i>
+        </li> <br/>
+        <li>Prometheus</li>    
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
@@ -111,6 +111,13 @@ const ShowMe = ({hidden}) => {
         <i className="fa fa-star"></i>
         <i className="fa fa-star-o"></i>
         </li> <br/>
+        <li>Datadog</li>    
+    <li><i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star-o"></i>
+        </li> <br/>
     <li>Redis</li>    
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
@@ -118,21 +125,28 @@ const ShowMe = ({hidden}) => {
         <i className="fa fa-star"></i>
         <i className="fa fa-star-o"></i>
         </li> <br/>
-    <li>Nagios</li>    
-    <li><i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        </li> <br/>
-    <li>ELK stack</li>    
+        <li>Databricks</li>    
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star-o"></i>
         </li> <br/>
-    <li>Selenium</li>    
+    <li>GCP</li>    
+    <li><i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star-o"></i>
+        </li> <br/>
+    <li>Azure</li>    
+    <li><i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star"></i>
+        <i className="fa fa-star-o"></i>
+        <i className="fa fa-star-o"></i>
+        </li> <br/>
+    <li>Crossplane</li>    
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
@@ -146,7 +160,7 @@ const ShowMe = ({hidden}) => {
         <i className="fa fa-star-o"></i>
         <i className="fa fa-star-o"></i>
         </li> <br/>
-        <li>AWS/Azure</li>    
+        <li>AWS</li>    
     <li><i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
         <i className="fa fa-star"></i>
@@ -166,124 +180,6 @@ const ShowMe = ({hidden}) => {
         </div>
         </div>
         
-        <div className='col-md-6 skills-front'>
-        <h1>Front-End</h1>
-        <div className='row'>
-        <div className='col-6'>
-        <ul>
-    <li>HTML</li>
-    <li><i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        </li> <br/>
-    <li style={{color:'white'}}>CSS3</li>
-    <li>SASS</li>
-        <li><i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star-o"></i>
-        </li> <br/>
-        <li>Grid/Flexbox</li>
-        <li><i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star-o"></i>
-        <i className="fa fa-star-o"></i>
-        </li> <br/>
-        <li>Transitions/ <br/>Animations</li>
-        <li><i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star-o"></i>
-        </li> <br/>
-    
-    <li style={{color:'white'}}>Javascript</li>
-        
-    <li>ES6</li>
-    <li><i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star-o"></i>
-        </li> <br/>
-
-        <li>Babel</li>
-        <li><i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star-o"></i>
-        <i className="fa fa-star-o"></i>
-        </li> <br/>
-        </ul>
-        </div>
-        <div className='col-6'>
-<ul>
-    <li>React</li>
-    <li><i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star-o"></i>
-        </li> <br/>
-    <li style={{color:'white'}}>Node.js</li>
-    
-    <li>NPM </li>
-    <li><i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        </li> <br/>
-        <li>API's </li>
-    <li><i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star-o"></i>
-        </li> <br/>
-        <li>Core Modules</li>
-    <li><i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star-o"></i>
-        </li> <br/>
-    <li style={{color:'white'}}>Databases</li>
-
-    <li>NoSQL</li>
-    <li><i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star-o"></i>
-        </li> <br/>
-        <li>PostGreSQL</li>
-    <li><i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star-o"></i>
-        <i className="fa fa-star-o"></i>
-        </li> <br/>
-        <li>MongoDB</li>
-    <li><i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star"></i>
-        <i className="fa fa-star    "></i>
-        <i className="fa fa-star-o"></i>
-        </li> <br/>
-
-</ul>
-
-
-        </div>
-        </div>
-
-
-        </div>
         </div>
         </div>
         </div>

@@ -35,7 +35,7 @@
   padding-top: 20px;
 }
 .is-visible {
-  height: 650px;
+  height: 100%;
   opacity: 1;
 }
 .skills-transition{
@@ -58,6 +58,10 @@ transition: height 1s ease-in-out, opacity 3s;
 .profile, .giffies {
  max-width: 300px;
  width: 100%;
+}
+
+.profile-space{
+padding-top: 15%;
 }
 .works-container {
   font-family: 'Montserrat', sans-serif;
